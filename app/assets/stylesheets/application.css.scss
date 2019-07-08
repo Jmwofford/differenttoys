@@ -39,6 +39,12 @@ input {
   display: flex;
 }
 
+.card_parent {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
 // ======================================CLASSES
 
 #main_text {
@@ -57,4 +63,27 @@ input {
 #main_profile {
   background-image: url("http://25.media.tumblr.com/tumblr_mdq76hhR2F1rgpyeqo1_250.gif");
 
+}
+
+#tri_bucket {
+  border: solid blue;
+  padding: 5px;
+  border-width: 3px;
+  width: auto;
+}
+
+#tri_bucket:hover {
+  border: solid green;
+  border-width: 7px;
+  border-radius: 1em;
+  padding: 5px;
+  height: 450px;
+  transition: .5s;
+
+}
+
+#tri_pic {
+  height: 100px;
+  width: 170px;
+  border: solid green;
 }

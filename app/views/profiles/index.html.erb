@@ -4,14 +4,30 @@
 
       
         <h1>Welcome @User <%= @current_user %>!</h1>
+         
+          <img src="https://i.gifer.com/origin/13/13fcd40da435fa9c04c1968a21291fcb_w200.gif">
         <hr>
         <br>
         <br>
-        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div>
         <%# Dropdown %>
             <p>
-            <a class="btn btn-primary" href="/home"> Return to Home Page  </a>
+            
             <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Tech Resume</a>
             <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">References</button>
             <button class="btn btn-success" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">View both elements</button>
@@ -36,9 +52,86 @@
           </div>
           <%#  %>
         </div>
-<hr>
-      
 
+<hr>
+      <%# card %>
+<div class="card_parent">
+  <div class="card_one">
+    <div id="tri_bucket" class="card" style="width: 25rem;">
+  
+        <div class="card-body">
+        <h3 class="card-title">Community Outreach</h3>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Political Campaigning</li>
+    <li class="list-group-item">Non-Profit Volunteering</li>
+    <li class="list-group-item">Community Activism/ Speaking Engagements</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class=" btn btn-secondary card-link">Click to View Portfolio</a>
+  </div>
+</div>
+
+    
+    
+    </div>
+
+    <div class="card_two">
+    
+<div id="tri_bucket" class="card" style="width: 25rem;">
+  <div class="card-body">
+    <h3 class="card-title">Athletics</h3>
+    <p class="card-text">My Leadership on and off the field, gift me with the ability to work well within a team environment.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Lacrosse (Collegiate)</li>
+    <li class="list-group-item">Boxing (Amateur)</li>
+    <li class="list-group-item">Football</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class=" btn btn-secondary card-link">Highlights</a>
+  </div>
+</div>
+    
+    
+    </div>
+
+
+    <div class="card_three">
+    
+<div id="tri_bucket" class="card" style="width: 25rem;">
+  <div class="card-body">
+    <h3 class="card-title">Pet Projects</h3>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">MountSwishmore (Rails)</li>
+    <li class="list-group-item">Jeopardy (Rails)</li>
+    <li class="list-group-item">Free-Lance Sites</li>
+  </ul>
+  <div class="card-body">
+    <a href="#" class=" btn btn-secondary card-link">Click to View Projects</a>
+  </div>
+</div>
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+<%# cardEnd %>
+<a class="btn btn-danger" href="/home"> Return to Home Page  </a>
 
 
     </div>
