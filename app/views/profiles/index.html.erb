@@ -6,21 +6,19 @@
         <h1>Welcome <%= @current_user.name %>!</h1>
           <img src="https://i.gifer.com/origin/13/13fcd40da435fa9c04c1968a21291fcb_w200.gif">
 
-        <h3> Would you like updates on my Profile? If so, we can forward updates to : <br><span class="text-success"><%= @current_user.email%>. </span> </h3>
+        <h3> Wanna Subcribe to Newsletter? If so, we can forward updates to : <br><br><span id="btn-fix" class="btn btn-success text-white"><%= @current_user.email%>. </span> </h3>
         <hr>
 <%#  %>
-        <div class="teamlogoFlexParent">
-            <div class="teamlogobulls">github</div>
+        <div class="bubbleParent">
+            <div class="social_bubble1"><a href="https://github.com/Jmwofford"> </a></div>
 
-            <div class="teamlogolakers">facebook</div>
+            <div class="social_bubble2"><a href="https://www.facebook.com/emotionally.unavailable100percent?ref=bookmarks"> </a></div>
 
-            <div class="teamlogoceltics">linked in </div>
+            <div class="social_bubble3"><a href="https://www.linkedin.com/in/jordan-m-wofford-aa079630/"> </a> </div>
 
-            <div class="teamlogospurs"> instagram</div>
+            <div class="social_bubble4"><a href="https://mail.google.com"> </a></div>
 
-            <div class="teamlogorockets">gmail</div>
-
-            <div class="teamlogknicks">slack</div>
+            <div class="social_bubble5"><a href="https://slack.com/signin"> </a></div>
 
           </div>
 
@@ -64,7 +62,7 @@
     <div id="tri_bucket" class="card" style="width: 25rem;">
   
         <div class="card-body">
-        <h3 class="card-title">Community Outreach</h3>
+        <h3 class="text-primary card-title">Community Outreach</h3><hr>
         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
   <ul class="list-group list-group-flush">
@@ -85,7 +83,7 @@
     
 <div id="tri_bucket" class="card" style="width: 25rem;">
   <div class="card-body">
-    <h3 class="card-title">Athletics</h3>
+    <h3 class="text-primary card-title">Athletics</h3><hr>
     <p class="card-text">My Leadership on and off the field, gift me with the ability to work well within a team environment.</p>
   </div>
   <ul class="list-group list-group-flush">
@@ -106,7 +104,7 @@
     
 <div id="tri_bucket" class="card" style="width: 25rem;">
   <div class="card-body">
-    <h3 class="card-title">Pet Projects</h3>
+    <h3 class="text-primary card-title">Pet Projects</h3><hr>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
   </div>
   <ul class="list-group list-group-flush">

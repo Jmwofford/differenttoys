@@ -44,7 +44,121 @@ input {
   justify-content: space-between;
   padding: 15px;
 }
+.social_bubble1{
+  border:solid blue;
+  padding:12px;
+  margin: 10px;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background-image:url("http://logz.io/wp-content/uploads/2015/11/github-logo.gif");
+  background-size:cover;
+}
+.social_bubble1:hover{
+  border:solid green;
+  padding:12px;
+  margin: 10px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  transition:3s;
+  background-size:cover;
+}
 
+
+.social_bubble2{
+  border:solid blue;
+  padding:12px;
+  margin: 10px;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background-image:url("https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_facebook_box_white.png");
+  background-size:cover;
+}
+.social_bubble2:hover{
+  border:solid green;
+  padding:12px;
+  margin: 10px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  transition:3s;
+  background-size:cover;
+}
+
+.social_bubble3{
+  border:solid blue;
+  padding:12px;
+  margin: 10px;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background-image:url("https://sguru.org/wp-content/uploads/2018/02/linkedin-logo-hd-png-3.png");
+  background-size:cover;
+}
+.social_bubble3:hover{
+  border:solid green;
+  padding:12px;
+  margin: 10px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  transition:3s;
+  background-size:cover;
+}
+
+.social_bubble4{
+  border:solid blue;
+  padding:12px;
+  margin: 10px;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background-image:url("http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Gmail-icon.png");
+  background-size:cover;
+}
+.social_bubble4:hover{
+  border:solid green;
+  padding:12px;
+  margin: 10px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  transition:3s;
+  background-size:cover;
+}
+
+
+.social_bubble5{
+  border:solid blue;
+  padding:12px;
+  margin: 10px;
+  height:100px;
+  width:100px;
+  border-radius:50%;
+  background-image:url("http://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/slack-icon.png");
+  background-size:cover;
+}
+
+.social_bubble5:hover{
+  border:solid green;
+  padding:12px;
+  margin: 10px;
+  height:150px;
+  width:150px;
+  border-radius:50%;
+  transition:3s;
+  background-size:cover;
+}
+
+.bubbleParent{
+  display:flex;
+  justify-content:space-between;
+}
+.para_index{
+  font-size:22px;
+}
 // ======================================CLASSES
 
 #main_text {
@@ -86,4 +200,7 @@ input {
   height: 100px;
   width: 170px;
   border: solid green;
+}
+#btn-fix{
+  font-size:22px;
 }
