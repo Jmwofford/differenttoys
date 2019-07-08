@@ -17,11 +17,17 @@
 @import "bootstrap";
 @import "bootstrap-sprockets";
 
+body {
+  color: black;
+}
+
 input {
   border: solid green;
   border-radius: 12em;
   padding: 1em;
-  margin: 1em
+  margin: 1em;
+  color: purple;
+  font-size: 15px;
 }
 
 // ======================================TAGS
@@ -41,5 +47,14 @@ input {
   padding: 10px;
   font-family: serif;
   border-width: 5px;
+
+}
+
+#login_index {
+  background-image: url("https://33.media.tumblr.com/8ca70d92d57382f9d828ffb7039ccbd9/tumblr_n55u51A94D1r6l3e7o1_500.gif")
+}
+
+#main_profile {
+  background-image: url("http://25.media.tumblr.com/tumblr_mdq76hhR2F1rgpyeqo1_250.gif");
 
 }
