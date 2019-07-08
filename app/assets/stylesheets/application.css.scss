@@ -16,3 +16,30 @@
 
 @import "bootstrap";
 @import "bootstrap-sprockets";
+
+input {
+  border: solid green;
+  border-radius: 12em;
+  padding: 1em;
+  margin: 1em
+}
+
+// ======================================TAGS
+.drips {
+  position: absolute;
+}
+
+.main_parent {
+  display: flex;
+}
+
+// ======================================CLASSES
+
+#main_text {
+  border: double white;
+  margin-top: 35%;
+  padding: 10px;
+  font-family: serif;
+  border-width: 5px;
+
+}

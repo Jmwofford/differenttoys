@@ -1,61 +1,46 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <title>Index</title>
-  </head>
-  <body>
   <div class='container'>
+  <br>
+  <br>
+  <br>
+  <br>
     <div class='row justify-content-center'>
       <div class='text-center col-12 col-lg-10 bg-white border p-3'>
 
 
-      <h1 class="text-primary">Login</h1>
+       <h1 class="text-primary">Existing Member Login</h1>
 
-      <form action="/sessions" method="POST">
+       <form action="/sessions" method="POST">
         <input type="hidden" name="authenticity_token" value=" <%= form_authenticity_token %>" >
-        <input type="email" name="login[email]" placeholder="Email">
+        <input type="email" name="login[email]" placeholder="Company Email">
         <input type="password" name="login[password]" placeholder="Password">
         <input type="submit" name="submit" class="btn btn-primary submit">
       </form>
 
-      <div class="errors">
+       <div class="errors">
         <% if flash[:login_errors] %>
           <% flash[:login_errors].each do |error| %>
           <p> <%= error %> </p>
           <% end %>
         <% end %>
       </div>
-      
-<hr>
-      <img src="https://i.gifer.com/7kHG.gif">
-
-<hr>
-        <h1 class="text-primary">Registration</h1>
-
-        <form action="/users" method="POST">
+ <hr>
+      <img src="https://data.whicdn.com/images/305740634/superthumb.png?t=1516546580">
+ <hr>
+        <h1 class="text-primary">New to Site ? Register to Enter.</h1>
+         <form action="/users" method="POST">
           <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %> ">
-          <input type="name" name="user[name]" placeholder="Name">
-          <input type="email" name="user[email]" placeholder="Email"><br>
+          <input type="name" name="user[name]" placeholder="Company Name">
+          <input type="email" name="user[email]" placeholder="Email">
           <input type="password" name="user[password]" placeholder="Password"> 
           <input type="password" name="user[password_confirmation]" placeholder="Password Confirmation"> 
           <input type="submit" name="submit" class="btn btn-primary submit">
         </form>
-
-
-<div>
-  
+   
+     </div>
+  </div>
 </div>
-
 
 
     </div>
   </div>
 </div>
-
-   
-  </body>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
-</html>
