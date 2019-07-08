@@ -3,27 +3,31 @@
       <div class='text-secondary text-center col-12 col-lg-10 bg-warning border p-3'>
 
       
-        <h1>Welcome @User <%= @current_user %>!</h1>
-         
+        <h1>Welcome <%= @current_user.name %>!</h1>
           <img src="https://i.gifer.com/origin/13/13fcd40da435fa9c04c1968a21291fcb_w200.gif">
+
+        <h3> Would you like updates on my Profile? If so, we can forward updates to : <br><span class="text-success"><%= @current_user.email%>. </span> </h3>
         <hr>
+<%#  %>
+        <div class="teamlogoFlexParent">
+            <div class="teamlogobulls">github</div>
+
+            <div class="teamlogolakers">facebook</div>
+
+            <div class="teamlogoceltics">linked in </div>
+
+            <div class="teamlogospurs"> instagram</div>
+
+            <div class="teamlogorockets">gmail</div>
+
+            <div class="teamlogknicks">slack</div>
+
+          </div>
+
+<%#  %>
+
         <br>
         <br>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         <div>
         <%# Dropdown %>
             <p>
@@ -69,7 +73,7 @@
     <li class="list-group-item">Community Activism/ Speaking Engagements</li>
   </ul>
   <div class="card-body">
-    <a href="#" class=" btn btn-secondary card-link">Click to View Portfolio</a>
+    <a href="https://jmwofford.github.io/projects.html" class=" btn btn-secondary card-link">Click to View Portfolio</a>
   </div>
 </div>
 
@@ -90,7 +94,7 @@
     <li class="list-group-item">Football</li>
   </ul>
   <div class="card-body">
-    <a href="#" class=" btn btn-secondary card-link">Highlights</a>
+    <a href="https://www.youtube.com/watch?v=XaL6En2U5V4" class=" btn btn-secondary card-link">Highlights</a>
   </div>
 </div>
     
@@ -111,26 +115,15 @@
     <li class="list-group-item">Free-Lance Sites</li>
   </ul>
   <div class="card-body">
-    <a href="#" class=" btn btn-secondary card-link">Click to View Projects</a>
+    <a href="https://safe-sea-48470.herokuapp.com/goats" class=" btn btn-secondary card-link">Click to View Projects</a>
   </div>
 </div>
     
     
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 <%# cardEnd %>
+<hr>
 <a class="btn btn-danger" href="/home"> Return to Home Page  </a>
 
 
