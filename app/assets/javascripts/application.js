@@ -16,3 +16,7 @@
 // = require_tree .
 //= require bootstrap
 //= require bootstrap-sprockets
+
+$('#myModal').on('shown.bs.modal', function () {
+  $('#myInput').trigger('focus')
+})
