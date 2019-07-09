@@ -22,10 +22,15 @@ body {
 }
 
 input {
-  border: solid green;
+  border: solid pink ;
   border-radius: 12em;
   color: purple;
-  font-size: 9px;
+  font-size: 15px;
+  padding:2px;
+  margin-left:10px;
+}
+nav{
+  font-size:22px;
 }
 
 // ======================================TAGS
@@ -212,7 +217,7 @@ input {
 }
 .bart{
   position:absolute;
-  margin-left:65%;
+  margin-left:15%;
 }
 // ======================================CLASSES
 
