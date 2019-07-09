@@ -24,7 +24,6 @@ body {
 input {
   border: solid green;
   border-radius: 12em;
-  margin: 1em;
   color: purple;
   font-size: 9px;
 }
@@ -158,6 +157,21 @@ input {
 .para_index{
   font-size:22px;
 }
+.fiti{
+  height:300px;
+  width:300px;
+}
+.paralax_this{
+  border:solid red;
+  position:absolute;
+  width:100%;
+
+ 
+}
+.spraycan_decal{
+  height:250px;
+  width:250px;
+}
 // ======================================CLASSES
 
 #main_text {
@@ -202,4 +216,11 @@ input {
 }
 #btn-fix{
   font-size:22px;
+}
+#jmw{
+  border:solid black;
+}
+#home_tab{
+  margin:10px;
+  padding:5px;
 }
