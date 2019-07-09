@@ -161,6 +161,12 @@ input {
   height:300px;
   width:300px;
 }
+.fiti:hover{
+  height:300px;
+  width:300px;
+  margin-left:50%;
+  transition:5s
+}
 .paralax_this{
   border:solid red;
   position:absolute;
@@ -171,6 +177,42 @@ input {
 .spraycan_decal{
   height:250px;
   width:250px;
+}
+.land_tag{
+  margin-top:30%;
+  margin-right:40%;
+  position:absolute;
+}
+.land_tag:hover{
+  margin-top:30%;
+  margin-right:20%;
+  width:100%;
+  transition:9s;
+}
+.g_wall{
+  position:absolute;
+}
+.squirrel{
+  height:200px;
+  margin-left:82%;
+  // position:absolute;
+}
+.profile_tag{
+  margin-right:10%;
+  height:300px;
+  width:300px;
+}
+.prof_tag2{
+  height:350px;
+  margin-right:5%;
+}
+.luigi{
+  margin-left:10%;
+  position:absolute;
+}
+.bart{
+  position:absolute;
+  margin-left:65%;
 }
 // ======================================CLASSES
 
@@ -222,5 +264,9 @@ input {
 }
 #home_tab{
   margin:10px;
+  padding:5px;
+}
+#enter_sign{
+  border:solid white;
   padding:5px;
 }

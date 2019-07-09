@@ -3,10 +3,15 @@
       <div class='text-secondary text-center col-12 col-lg-10 bg-warning border p-3'>
 <%# 
       <div class="paralax_this"><img class="spraycan_decal" src="http://www.pngmart.com/files/4/Graffiti-PNG-Picture.png"></div> %>
-      
-        <h1>Welcome <%= @current_user.name %>!</h1>
-        <img src="https://i.gifer.com/origin/13/13fcd40da435fa9c04c1968a21291fcb_w200.gif">
 
+        <h1>Welcome <%= @current_user.name %>!</h1>
+       
+       <div>
+        <img class="luigi" src="https://cdn2.scratch.mit.edu/get_image/gallery/1393076_170x100.png">
+        <%# <img class="profile_tag"src="http://pluspng.com/img-png/art-png-hd-3d-graffiti-art-image-2041.png"> %>
+        <img class="prof_tag2"src="https://www.freeiconspng.com/uploads/spray-can-png-22.png">
+
+        </div><br><hr>
         <h3> Wanna Subcribe to Newsletter? If so, we can forward updates to : <br><br><span id="btn-fix" class="btn btn-success text-white"><%= @current_user.email%>. </span> </h3>
 
         <%# modal %>
