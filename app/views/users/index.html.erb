@@ -3,8 +3,8 @@
   <br>
   <br>
   <br>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a id="jmw" class="navbar-brand" href="#">Jordan M. Wofford </a>
+<nav id="nav_ish" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a id="jmw" class="navbar-brand" href="/">Jordan M. Wofford </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,20 +20,23 @@
 
     </ul>
   </div>
-    <img class="bart"src="https://seeklogo.com/images/B/Bart_Simpson-logo-B1213E41BF-seeklogo.com.png">
-<h3 class="text-primary"> Member Sign In </h3>
+    
+<h4 class="text-white"> Member Sign In </h4>
        <form action="/sessions" method="POST">
         <input type="hidden" name="authenticity_token" value=" <%= form_authenticity_token %>" >
         <input type="email" name="login[email]" placeholder=" Email">
         <input type="password" name="login[password]" placeholder=" Password">
         <input type="submit" name="submit" class="btn btn-primary submit">
       </form>
+     <div>
+     
+     </div>
+         <img class="bart"src="https://seeklogo.com/images/B/Bart_Simpson-logo-B1213E41BF-seeklogo.com.png">
 
 </nav>
-<br>
-<br>
-<br>
-<br>
+         <img class="rotating_can" src="http://www.picgifs.com/graphics/g/graffiti/graphics-graffiti-634805.gif">
+         <img class="bigtag" src="https://www.pngarts.com/files/1/Graffiti-Download-Transparent-PNG-Image.png">
+
 
     <div class='row justify-content-center'>
       <div id="login_index" class='text-center col-12 col-lg-10 bg-white border p-3'>
@@ -48,9 +51,9 @@
           <% end %>
         <% end %>
       </div>
-      <img src="https://data.whicdn.com/images/305740634/superthumb.png?t=1516546580">
  <hr>
-        <h1 class="text-primary">New to Site ? Register to Enter.</h1>
+        <h3 class="text-white"> New to Site ? Register to Enter.</h3>
+         <hr>
          <form action="/users" method="POST">
           <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %> ">
           <input type="name" name="user[name]" placeholder="Company Name">
@@ -61,6 +64,7 @@
         </form>
    
      </div>
+
   </div>
 </div>
 

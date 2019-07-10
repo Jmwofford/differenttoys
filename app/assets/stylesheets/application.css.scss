@@ -22,15 +22,16 @@ body {
 }
 
 input {
-  border: solid pink ;
+  border: solid pink;
   border-radius: 12em;
   color: purple;
   font-size: 15px;
-  padding:2px;
-  margin-left:10px;
+  padding: 2px;
+  margin-left: 10px;
 }
-nav{
-  font-size:22px;
+
+nav {
+  font-size: 22px;
 }
 
 // ======================================TAGS
@@ -47,178 +48,210 @@ nav{
   justify-content: space-between;
   padding: 15px;
 }
-.social_bubble1{
-  border:solid blue;
-  padding:12px;
+
+.social_bubble1 {
+  border: solid blue;
+  padding: 12px;
   margin: 10px;
-  height:100px;
-  width:100px;
-  border-radius:50%;
-  background-image:url("http://logz.io/wp-content/uploads/2015/11/github-logo.gif");
-  background-size:cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("http://logz.io/wp-content/uploads/2015/11/github-logo.gif");
+  background-size: cover;
 }
-.social_bubble1:hover{
-  border:solid green;
-  padding:12px;
+
+.social_bubble1:hover {
+  border: solid green;
+  padding: 12px;
   margin: 10px;
-  height:150px;
-  width:150px;
-  border-radius:50%;
-  transition:3s;
-  background-size:cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  transition: 3s;
+  background-size: cover;
 }
 
 
-.social_bubble2{
-  border:solid blue;
-  padding:12px;
+.social_bubble2 {
+  border: solid blue;
+  padding: 12px;
   margin: 10px;
-  height:100px;
-  width:100px;
-  border-radius:50%;
-  background-image:url("https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_facebook_box_white.png");
-  background-size:cover;
-}
-.social_bubble2:hover{
-  border:solid green;
-  padding:12px;
-  margin: 10px;
-  height:150px;
-  width:150px;
-  border-radius:50%;
-  transition:3s;
-  background-size:cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_facebook_box_white.png");
+  background-size: cover;
 }
 
-.social_bubble3{
-  border:solid blue;
-  padding:12px;
+.social_bubble2:hover {
+  border: solid green;
+  padding: 12px;
   margin: 10px;
-  height:100px;
-  width:100px;
-  border-radius:50%;
-  background-image:url("https://sguru.org/wp-content/uploads/2018/02/linkedin-logo-hd-png-3.png");
-  background-size:cover;
-}
-.social_bubble3:hover{
-  border:solid green;
-  padding:12px;
-  margin: 10px;
-  height:150px;
-  width:150px;
-  border-radius:50%;
-  transition:3s;
-  background-size:cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  transition: 3s;
+  background-size: cover;
 }
 
-.social_bubble4{
-  border:solid blue;
-  padding:12px;
+.social_bubble3 {
+  border: solid blue;
+  padding: 12px;
   margin: 10px;
-  height:100px;
-  width:100px;
-  border-radius:50%;
-  background-image:url("http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Gmail-icon.png");
-  background-size:cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("https://sguru.org/wp-content/uploads/2018/02/linkedin-logo-hd-png-3.png");
+  background-size: cover;
 }
-.social_bubble4:hover{
-  border:solid green;
-  padding:12px;
+
+.social_bubble3:hover {
+  border: solid green;
+  padding: 12px;
   margin: 10px;
-  height:150px;
-  width:150px;
-  border-radius:50%;
-  transition:3s;
-  background-size:cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  transition: 3s;
+  background-size: cover;
 }
 
-
-.social_bubble5{
-  border:solid blue;
-  padding:12px;
+.social_bubble4 {
+  border: solid blue;
+  padding: 12px;
   margin: 10px;
-  height:100px;
-  width:100px;
-  border-radius:50%;
-  background-image:url("http://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/slack-icon.png");
-  background-size:cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("http://icons.iconarchive.com/icons/marcus-roberto/google-play/512/Gmail-icon.png");
+  background-size: cover;
 }
 
-.social_bubble5:hover{
-  border:solid green;
-  padding:12px;
+.social_bubble4:hover {
+  border: solid green;
+  padding: 12px;
   margin: 10px;
-  height:150px;
-  width:150px;
-  border-radius:50%;
-  transition:3s;
-  background-size:cover;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  transition: 3s;
+  background-size: cover;
 }
 
-.bubbleParent{
-  display:flex;
-  justify-content:space-between;
-}
-.para_index{
-  font-size:22px;
-}
-.fiti{
-  height:300px;
-  width:300px;
-}
-.fiti:hover{
-  height:300px;
-  width:300px;
-  margin-left:50%;
-  transition:5s
-}
-.paralax_this{
-  border:solid red;
-  position:absolute;
-  width:100%;
 
- 
+.social_bubble5 {
+  border: solid blue;
+  padding: 12px;
+  margin: 10px;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-image: url("http://icons.iconarchive.com/icons/papirus-team/papirus-apps/512/slack-icon.png");
+  background-size: cover;
 }
-.spraycan_decal{
-  height:250px;
-  width:250px;
+
+.social_bubble5:hover {
+  border: solid green;
+  padding: 12px;
+  margin: 10px;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  transition: 3s;
+  background-size: cover;
 }
-.land_tag{
-  margin-top:30%;
-  margin-right:40%;
-  position:absolute;
+
+.bubbleParent {
+  display: flex;
+  justify-content: space-between;
 }
-.land_tag:hover{
-  margin-top:30%;
-  margin-right:20%;
-  width:100%;
-  transition:5s;
+
+.para_index {
+  font-size: 22px;
 }
-.g_wall{
-  position:absolute;
+
+.fiti {
+  height: 300px;
+  width: 300px;
 }
-.squirrel{
-  height:200px;
-  margin-left:89%;
+
+.fiti:hover {
+  height: 300px;
+  width: 300px;
+  margin-left: 50%;
+  transition: 5s
+}
+
+.paralax_this {
+  border: solid red;
+  position: absolute;
+  width: 100%;
+
+
+}
+
+.spraycan_decal {
+  height: 250px;
+  width: 250px;
+}
+
+.land_tag {
+  margin-top: 30%;
+  margin-right: 20%;
+  position: absolute;
+  width: 75%;
+}
+
+.land_tag:hover {
+  margin-top: 30%;
+  margin-right: 40%;
+  width: 100%;
+  transition: 5s;
+}
+
+.rotating_can {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 10%;
+}
+
+.bigtag {
+  width: 80%;
+  height: 300px;
+}
+
+.g_wall {
+  position: absolute;
+}
+
+.squirrel {
+  height: 200px;
+  margin-left: 89%;
   // position:absolute;
 }
-.profile_tag{
-  margin-right:10%;
-  height:300px;
-  width:300px;
+
+.profile_tag {
+  margin-right: 10%;
+  height: 300px;
+  width: 300px;
 }
-.prof_tag2{
-  height:350px;
-  margin-right:5%;
+
+.prof_tag2 {
+  height: 350px;
+  margin-right: 5%;
 }
-.luigi{
-  margin-left:10%;
-  position:absolute;
+
+.luigi {
+  margin-left: 10%;
+  position: absolute;
 }
-.bart{
-  position:absolute;
-  margin-left:15%;
+
+.bart {
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 20%;
 }
+
 // ======================================CLASSES
 
 #main_text {
@@ -230,8 +263,22 @@ nav{
 
 }
 
+#nav_ish {
+  background-image: url("https://media.giphy.com/media/26BRGoqbUQvk8nwTC/giphy.gif");
+  background-size: cover;
+  width: 950px;
+  margin-left: 7%;
+  border-radius: 20px;
+}
+
 #login_index {
-  background-image: url("https://33.media.tumblr.com/8ca70d92d57382f9d828ffb7039ccbd9/tumblr_n55u51A94D1r6l3e7o1_500.gif")
+  background-image: url("https://media.giphy.com/media/26BRGoqbUQvk8nwTC/giphy.gif");
+  // background-size: cover;
+  border: solid palevioletred;
+  border-width: 5px;
+  border-radius: 20px;
+  height: 85%;
+  padding: 15px;
 }
 
 #main_profile {
@@ -261,17 +308,32 @@ nav{
   width: 170px;
   border: solid green;
 }
-#btn-fix{
-  font-size:22px;
+
+#btn-fix {
+  font-size: 22px;
 }
-#jmw{
-  border:solid black;
+
+#jmw {
+  border: solid white;
+  color: white;
 }
-#home_tab{
-  margin:10px;
-  padding:5px;
+
+#home_tab {
+  margin: 10px;
+  padding: 5px;
 }
-#enter_sign{
-  border:solid white;
-  padding:5px;
+
+#enter_sign {
+  border: solid white;
+  padding: 5px;
+  color: black;
+  font-size: 25px;
+}
+
+#enter_sign:hover {
+  border: solid green;
+  padding: 5px;
+  font-size: 28px;
+  color: white;
+  transition: 1s;
 }
