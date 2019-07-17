@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @comment.title %>
+</p>
+  <div style="width:200px; height:auto">
+    <%= link_to image_tag(@comment.image, style:'width:100%'), comments_path %>
+  </div>
+<p>
+  <strong>Caption:</strong>
+  <%= @comment.caption %>
+</p>
+
+<%= link_to 'Edit', edit_comment_path(@comment) %> |
+<%= link_to 'Back', comments_path %>
