@@ -3,26 +3,27 @@
     <div class='text-left col-12 col-lg-10 bg-warning border p-3'>
 <p id="notice"><%= notice %></p>
 
-<h1>Comment Board</h1>
+<h1 class="text_banner">Comment Board</h1>
 
 <table>
   <thead>
     <tr>
-      <th style="margin:10px;">Title</th>
-      <th style="margin:10px;">Caption</th>
-      <th style="margin:10px;" colspan="3"></th>
+      <th style="margin:20px;">Title  <br><br><br> </th>
+      <th style="margin:20px;">  Caption  <br><br><br> </th>
+      <th style="margin:20px;" colspan="3"></th>
     </tr>
   </thead>
 
   <tbody>
     <% @comments.each do |comment| %>
       <tr>
-        <td><%= comment.title %></td>
-        <td><%= comment.caption %></td>
+        <td><%= comment.title %></td><br>
+        <td><%= comment.caption %></td><br>
         <td><%= link_to 'Show', comment %></td>
         <td><%= link_to 'Edit', edit_comment_path(comment) %></td>
         <td><%= link_to 'Destroy', comment, method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
+      
     <% end %>
   </tbody>
 </table>
@@ -30,6 +31,7 @@
 <br>
 
 <%= link_to 'Click to Add New Comment', new_comment_path %>
-</div>
-</div>
+<a class="text-white" href="/dashboard"><div style="margin-left:50%;" class="btn btn-secondary text-white"> Back To Profile <div></a>
+    </div>
+  </div>
 </div>

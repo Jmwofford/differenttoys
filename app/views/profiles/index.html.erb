@@ -1,15 +1,17 @@
   <div class='container '>
     <div class='row justify-content-center '>
       <div class='text-secondary text-center col-12 col-lg-10 bg-warning border p-3'>
-        <h1>Welcome <%=@current_user.name %>!</h1>
+        <h1 class="badge">Welcome <%=@current_user.name %>!</h1>
        
        <div>
-        <img class="luigi" src="https://cdn2.scratch.mit.edu/get_image/gallery/1393076_170x100.png">
-        <img class="prof_tag2"src="https://www.freeiconspng.com/uploads/spray-can-png-22.png"><br><br><br>
-        <a class="btn btn-danger" href="/home"> Return to Home Page  </a>
+       <div class="parentContainer">
+          <img class="luigi" src="https://cdn2.scratch.mit.edu/get_image/gallery/1393076_170x100.png">
+          <img class="prof_tag2"src="https://www.freeiconspng.com/uploads/spray-can-png-22.png"><br><br><br>
+      </div>
+        <a class="btn btn-secondary" href="/home"> Return to Home Page  </a>
 
         </div><br><hr>
-        <h3> Wanna Add Any Comments? If so, Click Here For Comments Board: <br><br><a href="/comments/new"><span id="btn-fix" class="btn btn-success text-white">Comment Board </span> </a></h3>
+        <h3> Wanna Add Any Comments? If so, Click Here For Comments Board: <br><br><a href="/comments/new"><span id="btn-fix" class="btn btn-secondary text-white">Comment Board </span> </a></h3>
 <%#  %>
         <div class="bubbleParent">
             <a href="https://github.com/Jmwofford"><div class="social_bubble1"> </div></a>

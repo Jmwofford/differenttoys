@@ -3,43 +3,43 @@
    <img src="https://cdn2.scratch.mit.edu/get_image/gallery/374786_200x130.png?v=1394855846.0">
     <div class='text-left col-12 col-lg-10 bg-warning border p-3 '>
 
-<%= form_with(model: comment, local: true) do |form| %>
-  <% if comment.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
+      <%= form_with(model: comment, local: true) do |form| %>
+        <% if comment.errors.any? %>
+          <div id="error_explanation">
+            <h2><%= pluralize(comment.errors.count, "error") %> prohibited this comment from being saved:</h2>
 
-      <ul>
-      <% comment.errors.full_messages.each do |message| %>
-        <li><%= message %></li>
+            <ul>
+            <% comment.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+            </ul>
+          </div>
+        <% end %>
+        <br>
+        <br>
+        <div class="field">
+          <%= form.label :title %>
+          <%= form.text_field :title %>
+        </div>
+      <br>
+      <br>
+        <div class="field justify-content-center">
+          <%= form.label :image %>
+          <%= form.file_field :image %>
+        </div>
+      <br>
+      <br>
+        <div class="field">
+          <%= form.label :caption %>
+          <%= form.text_area :caption %>
+        </div>
+      
+      <br>
+      <br>
+        <div class="actions">
+          <%= form.submit %>
+        </div>
       <% end %>
-      </ul>
-    </div>
-  <% end %>
-  <br>
-  <br>
-  <div class="field">
-    <%= form.label :title %>
-    <%= form.text_field :title %>
-  </div>
-<br>
-<br>
-  <div class="field justify-content-center">
-    <%= form.label :image %>
-    <%= form.file_field :image %>
-  </div>
-<br>
-<br>
-  <div class="field">
-    <%= form.label :caption %>
-    <%= form.text_area :caption %>
-  </div>
- 
-<br>
-<br>
-  <div class="actions">
-    <%= form.submit %>
-  </div>
-<% end %>
 
 
     </div>

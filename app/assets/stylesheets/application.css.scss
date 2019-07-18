@@ -18,7 +18,8 @@
 @import "bootstrap-sprockets";
 
 body {
-  color: black;
+  color: white;
+
 }
 
 .space {
@@ -27,6 +28,7 @@ body {
 
 td {
   color: white;
+  margin: 15px;
 }
 
 input {
@@ -47,8 +49,20 @@ nav {
   position: absolute;
 }
 
+.text_banner {
+  border: solid white;
+  border-width: 11px;
+  padding: 22px;
+
+}
+
 .main_parent {
   display: flex;
+}
+
+.mario_decal {
+  position: absolute;
+  margin-left: 60%;
 }
 
 .card_parent {
@@ -172,14 +186,36 @@ nav {
 .bubbleParent {
   display: flex;
   justify-content: space-between;
+  margin: 60px;
+}
+
+.field {
+  color: black;
+  font-size: 20px;
+  padding: 10px;
 }
 
 .para_index {
   font-size: 22px;
 }
 
+.badge {
+  border: solid white;
+  border-radius: 22px;
+  padding: 12px;
+  font-size: 18px;
+}
+
+.parentContainer {
+  border-radius: 100%;
+
+}
+
 .comment_title {
-  margin-left: 40%;
+  border: solid white;
+  border-width: 3px;
+  padding: 15px;
+  text-align: center;
 }
 
 .fiti {
@@ -254,8 +290,11 @@ nav {
 }
 
 .luigi {
-  margin-left: 10%;
+  margin-top: 78px;
+  margin-left: 92px;
   position: absolute;
+  height: auto;
+  width: 350px;
 }
 
 .bart {
@@ -324,6 +363,9 @@ nav {
 
 #btn-fix {
   font-size: 22px;
+  border: solid white;
+  padding: 10px;
+  border-radius: 22px;
 }
 
 #jmw {
